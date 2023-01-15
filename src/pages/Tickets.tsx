@@ -1,4 +1,3 @@
-
 const TicketCount = 400;
 
 const Tickets = () => {
