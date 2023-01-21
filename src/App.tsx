@@ -3,7 +3,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import Tickets from "./pages/Tickets";
-import NoPage from "./pages/NoPage";
+import NoPage from "./pages/TicketSystem";
+import TicketSystem from "./pages/TicketSystem";
 
 export default function App() {
     return (
@@ -12,7 +13,7 @@ export default function App() {
                 <Route path="/" element={<Layout />}>
                     <Route index element={<Home />} />
                     <Route path="tickets" element={<Tickets />} />
-                    <Route path="information" element={<NoPage />} />
+                    <Route path="information" element={<TicketSystem  tickets={200}/>} />
                 </Route>
             </Routes>
         </BrowserRouter>
