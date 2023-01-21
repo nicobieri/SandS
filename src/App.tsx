@@ -3,7 +3,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import Tickets from "./pages/Tickets";
-import NoPage from "./pages/TicketSystem";
 import TicketSystem from "./pages/TicketSystem";
 
 export default function App() {
